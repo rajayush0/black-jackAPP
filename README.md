@@ -1,17 +1,17 @@
-# 🃏 Blackjack Game
+🃏 Blackjack Game
 
 A fun and beginner-friendly **Blackjack game** built during the [Scrimba Frontend Developer Career Path](https://scrimba.com/). This project was part of my JavaScript learning journey, helping me understand key programming concepts like functions, conditionals, arrays, and DOM manipulation.
 
 ---
 
-## 🎮 Live Demo
+ 🎮 Live Demo
 
-👉 [Play the game here](#)  
+👉 [\[Play the game here\]](https://black-jackappjs.netlify.app/)(#)  
 *Replace `#` with your GitHub Pages or Netlify live link.*
 
 ---
 
-## 📋 How to Play
+📋 How to Play
 
 - Click **START GAME** to begin a round.
 - Click **NEW CARD** to draw another card.
@@ -23,7 +23,7 @@ A fun and beginner-friendly **Blackjack game** built during the [Scrimba Fronten
 
 ---
 
-## 🧠 What I Practiced
+🧠 What I Practiced
 
 - JavaScript basics: `let`, `if/else`, functions
 - DOM manipulation using:
