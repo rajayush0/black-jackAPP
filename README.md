@@ -3,7 +3,7 @@
 A fun and beginner-friendly **Blackjack game** . This project was part of my JavaScript learning journey, helping me understand key programming concepts like functions, conditionals, arrays, and DOM manipulation.
 
 ---
-
+  <!-- A -->
  🎮 Live Demo
 
 👉 [\[Play the game here\]](https://black-jackappjs.netlify.app/) 
