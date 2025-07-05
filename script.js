@@ -1,15 +1,11 @@
 let player = {
     name: "AYUSH",
     chips: 200,
-    sayHello: function() {
-        console.log("Heisann!")
-    }
+
 }
 
 let cards = []
-let sum = 0
-let hasBlackJack = false
-let isAlive = false
+
 let message = ""
 let messageEl = document.getElementById("message-el")
 let sumEl = document.getElementById("sum-el") 
@@ -17,6 +13,12 @@ let cardsEl = document.getElementById("cards-el")
 let playerEl = document.getElementById("player-el")
 let gameEl = document.getElementById("game-el")
 
+    messageEl.textContent = "Want to play a round?"
+    gameEl.textContent = "START GAME"
+    sumEl.textContent = "Sum: 0"
+    cardsEl.textContent = "Cards: 0"
+    isAlive = false
+    hasBlackJack = false
 
 playerEl.textContent = player.name + ": $" + player.chips
 
@@ -69,8 +71,12 @@ function newCard() {
 function stopgame(){
     messageEl.textContent = "Want to play a round?"
     gameEl.textContent = "START GAME"
-    sumEl.textContent = "Sum: " + "0"
-    cardsEl.textContent = "Cards: " + "0"
+    sumEl.textContent = "Sum: 0"
+    cardsEl.textContent = "Cards: 0"
     isAlive = false
     hasBlackJack = false
 }
+
+document.getElementById("start-btn").addEventListener('click',startGame);
+document.getElementById("newcard-btn").addEventListener('click',newCard);
+document.getElementById("stop-btn").addEventListener('click',stopgame );
